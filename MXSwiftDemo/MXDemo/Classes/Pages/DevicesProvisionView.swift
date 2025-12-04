@@ -194,6 +194,31 @@ struct DevicesProvisionView: View {
         // 返回根视图
         dismiss()
     }
+    
+    //调用一键配网
+    func startWiFiProvision() {
+        
+        let provision_delegate = ProvisionDelegate { pk, dn, error in
+            guard let index = provisionList.firstIndex(where: { $0.productKey == pk && $0.deviceName == dn }) else {
+                return
+            }
+            if error == nil {
+                bindDevice(info: provisionList[index])
+            } else {
+                provisionList[index].provisionError = error?.domain
+                provisionFail(productKey: pk, deviceName: dn)
+            }
+        }
+        
+        var customParams = [String: Any]()
+        customParams["mqtturl"] = "app.mqtt.fogcloud.io"
+        customParams["httpurl"] = "app.api.fogcloud.io"
+        MXEasyLinkProvision.shared.startProvision(pk:nil,
+                                                 ssid: "AP106",
+                                                 password: "12345678",
+                                                 custom: customParams,
+                                                 delegate: provision_delegate)
+    }
 }
 
 // MARK: - 配网代理
@@ -252,8 +277,8 @@ class ProvisionDelegate: NSObject, MXFogProvisionDelegate {
                                            handler: @escaping (String, String?, [String : Any]?) -> Void) {
         self.requestNum = 0
         var customParams = [String: Any]()
-        customParams["mqtturl"] = "app.api.fogcloud.io"
-        customParams["httpurl"] = "app.mqtt.fogcloud.io"
+        customParams["mqtturl"] = "app.mqtt.fogcloud.io"
+        customParams["httpurl"] = "app.api.fogcloud.io"
         handler("AP106", "12345678", customParams)
     }
     /*

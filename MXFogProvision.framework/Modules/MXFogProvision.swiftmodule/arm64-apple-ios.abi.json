@@ -81,6 +81,384 @@
           },
           {
             "kind": "Var",
+            "name": "scanResultCallback",
+            "printedName": "scanResultCallback",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([[Swift.String : Any]], Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([[Swift.String : Any]], Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "([[Swift.String : Any]], Swift.Bool)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[[Swift.String : Any]]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Dictionary",
+                                "printedName": "[Swift.String : Any]",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ProtocolComposition",
+                                    "printedName": "Any"
+                                  }
+                                ],
+                                "usr": "s:SD"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleScan(py)scanResultCallback",
+            "mangledName": "$s14MXFogProvision0A7BleScanC18scanResultCallbackySaySDySSypGG_SbtcSgvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(([[Swift.String : Any]], Swift.Bool) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "([[Swift.String : Any]], Swift.Bool) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "([[Swift.String : Any]], Swift.Bool)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Array",
+                                "printedName": "[[Swift.String : Any]]",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Dictionary",
+                                    "printedName": "[Swift.String : Any]",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "String",
+                                        "printedName": "Swift.String",
+                                        "usr": "s:SS"
+                                      },
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "ProtocolComposition",
+                                        "printedName": "Any"
+                                      }
+                                    ],
+                                    "usr": "s:SD"
+                                  }
+                                ],
+                                "usr": "s:Sa"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleScan(im)scanResultCallback",
+                "mangledName": "$s14MXFogProvision0A7BleScanC18scanResultCallbackySaySDySSypGG_SbtcSgvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(([[Swift.String : Any]], Swift.Bool) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "([[Swift.String : Any]], Swift.Bool) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "([[Swift.String : Any]], Swift.Bool)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Array",
+                                "printedName": "[[Swift.String : Any]]",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Dictionary",
+                                    "printedName": "[Swift.String : Any]",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "String",
+                                        "printedName": "Swift.String",
+                                        "usr": "s:SS"
+                                      },
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "ProtocolComposition",
+                                        "printedName": "Any"
+                                      }
+                                    ],
+                                    "usr": "s:SD"
+                                  }
+                                ],
+                                "usr": "s:Sa"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleScan(im)setScanResultCallback:",
+                "mangledName": "$s14MXFogProvision0A7BleScanC18scanResultCallbackySaySDySSypGG_SbtcSgvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision0A7BleScanC18scanResultCallbackySaySDySSypGG_SbtcSgvM",
+                "mangledName": "$s14MXFogProvision0A7BleScanC18scanResultCallbackySaySDySSypGG_SbtcSgvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "centralManager",
+            "printedName": "centralManager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CoreBluetooth.CBCentralManager?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CBCentralManager",
+                    "printedName": "CoreBluetooth.CBCentralManager",
+                    "usr": "c:objc(cs)CBCentralManager"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleScan(py)centralManager",
+            "mangledName": "$s14MXFogProvision0A7BleScanC14centralManagerSo09CBCentralF0CSgvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "CoreBluetooth.CBCentralManager?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CBCentralManager",
+                        "printedName": "CoreBluetooth.CBCentralManager",
+                        "usr": "c:objc(cs)CBCentralManager"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleScan(im)centralManager",
+                "mangledName": "$s14MXFogProvision0A7BleScanC14centralManagerSo09CBCentralF0CSgvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "CoreBluetooth.CBCentralManager?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CBCentralManager",
+                        "printedName": "CoreBluetooth.CBCentralManager",
+                        "usr": "c:objc(cs)CBCentralManager"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleScan(im)setCentralManager:",
+                "mangledName": "$s14MXFogProvision0A7BleScanC14centralManagerSo09CBCentralF0CSgvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision0A7BleScanC14centralManagerSo09CBCentralF0CSgvM",
+                "mangledName": "$s14MXFogProvision0A7BleScanC14centralManagerSo09CBCentralF0CSgvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "scanDevices",
             "printedName": "scanDevices",
             "children": [
@@ -116,6 +494,7 @@
             "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleScan(py)scanDevices",
             "mangledName": "$s14MXFogProvision0A7BleScanC11scanDevicesSaySDySSypGGvp",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -162,6 +541,7 @@
                 "mangledName": "$s14MXFogProvision0A7BleScanC11scanDevicesSaySDySSypGGvg",
                 "moduleName": "MXFogProvision",
                 "implicit": true,
+                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -210,6 +590,7 @@
                 "mangledName": "$s14MXFogProvision0A7BleScanC11scanDevicesSaySDySSypGGvs",
                 "moduleName": "MXFogProvision",
                 "implicit": true,
+                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -231,6 +612,415 @@
                 "mangledName": "$s14MXFogProvision0A7BleScanC11scanDevicesSaySDySSypGGvM",
                 "moduleName": "MXFogProvision",
                 "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "scanTimer",
+            "printedName": "scanTimer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.Timer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Timer",
+                    "printedName": "Foundation.Timer",
+                    "usr": "c:objc(cs)NSTimer"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleScan(py)scanTimer",
+            "mangledName": "$s14MXFogProvision0A7BleScanC9scanTimerSo7NSTimerCSgvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Foundation.Timer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Timer",
+                        "printedName": "Foundation.Timer",
+                        "usr": "c:objc(cs)NSTimer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleScan(im)scanTimer",
+                "mangledName": "$s14MXFogProvision0A7BleScanC9scanTimerSo7NSTimerCSgvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Foundation.Timer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Timer",
+                        "printedName": "Foundation.Timer",
+                        "usr": "c:objc(cs)NSTimer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleScan(im)setScanTimer:",
+                "mangledName": "$s14MXFogProvision0A7BleScanC9scanTimerSo7NSTimerCSgvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision0A7BleScanC9scanTimerSo7NSTimerCSgvM",
+                "mangledName": "$s14MXFogProvision0A7BleScanC9scanTimerSo7NSTimerCSgvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "scanTimerNum",
+            "printedName": "scanTimerNum",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleScan(py)scanTimerNum",
+            "mangledName": "$s14MXFogProvision0A7BleScanC12scanTimerNumSivp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleScan(im)scanTimerNum",
+                "mangledName": "$s14MXFogProvision0A7BleScanC12scanTimerNumSivg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleScan(im)setScanTimerNum:",
+                "mangledName": "$s14MXFogProvision0A7BleScanC12scanTimerNumSivs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision0A7BleScanC12scanTimerNumSivM",
+                "mangledName": "$s14MXFogProvision0A7BleScanC12scanTimerNumSivM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "scanTimeout",
+            "printedName": "scanTimeout",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleScan(py)scanTimeout",
+            "mangledName": "$s14MXFogProvision0A7BleScanC11scanTimeoutSivp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleScan(im)scanTimeout",
+                "mangledName": "$s14MXFogProvision0A7BleScanC11scanTimeoutSivg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleScan(im)setScanTimeout:",
+                "mangledName": "$s14MXFogProvision0A7BleScanC11scanTimeoutSivs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision0A7BleScanC11scanTimeoutSivM",
+                "mangledName": "$s14MXFogProvision0A7BleScanC11scanTimeoutSivM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isStart",
+            "printedName": "isStart",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleScan(py)isStart",
+            "mangledName": "$s14MXFogProvision0A7BleScanC7isStartSbvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleScan(im)isStart",
+                "mangledName": "$s14MXFogProvision0A7BleScanC7isStartSbvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleScan(im)setIsStart:",
+                "mangledName": "$s14MXFogProvision0A7BleScanC7isStartSbvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision0A7BleScanC7isStartSbvM",
+                "mangledName": "$s14MXFogProvision0A7BleScanC7isStartSbvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -335,6 +1125,7 @@
             "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleScan(im)startScanWithTimeout:callback:",
             "mangledName": "$s14MXFogProvision0A7BleScanC05startD07timeout8callbackySi_ySaySDySSypGG_SbtctF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment",
@@ -357,9 +1148,31 @@
             "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleScan(im)stopScan",
             "mangledName": "$s14MXFogProvision0A7BleScanC04stopD0yyF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupScanTimer",
+            "printedName": "setupScanTimer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleScan(im)setupScanTimer",
+            "mangledName": "$s14MXFogProvision0A7BleScanC05setupD5TimeryyF",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
               "ObjC"
             ],
             "funcSelfKind": "NonMutating"
@@ -416,6 +1229,7 @@
             "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleScan(im)centralManager:didDiscoverPeripheral:advertisementData:RSSI:",
             "mangledName": "$s14MXFogProvision0A7BleScanC14centralManager_11didDiscover17advertisementData4rssiySo09CBCentralF0C_So12CBPeripheralCSDySSypGSo8NSNumberCtF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "objc_name": "centralManager:didDiscoverPeripheral:advertisementData:RSSI:",
             "declAttributes": [
               "Dynamic",
@@ -446,6 +1260,7 @@
             "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleScan(im)centralManagerDidUpdateState:",
             "mangledName": "$s14MXFogProvision0A7BleScanC28centralManagerDidUpdateStateyySo09CBCentralF0CF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "objc_name": "centralManagerDidUpdateState:",
             "declAttributes": [
               "Dynamic",
@@ -460,6 +1275,7 @@
         "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleScan",
         "mangledName": "$s14MXFogProvision0A7BleScanC",
         "moduleName": "MXFogProvision",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "ObjCMembers",
@@ -1638,6 +2454,55 @@
         "printedName": "MXFogBluetoothProtocolHandler",
         "children": [
           {
+            "kind": "Var",
+            "name": "fogProvisionType",
+            "printedName": "fogProvisionType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MXFogProvision0A24BluetoothProtocolHandlerC03fogB4Types5UInt8Vvp",
+            "mangledName": "$s14MXFogProvision0A24BluetoothProtocolHandlerC03fogB4Types5UInt8Vvp",
+            "moduleName": "MXFogProvision",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision0A24BluetoothProtocolHandlerC03fogB4Types5UInt8Vvg",
+                "mangledName": "$s14MXFogProvision0A24BluetoothProtocolHandlerC03fogB4Types5UInt8Vvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "mxFog_segment",
             "printedName": "mxFog_segment(_:toMtu:)",
@@ -1673,6 +2538,7 @@
             "usr": "s:14MXFogProvision0A24BluetoothProtocolHandlerC13mxFog_segment_5toMtuSay10Foundation4DataVGAH_SitF",
             "mangledName": "$s14MXFogProvision0A24BluetoothProtocolHandlerC13mxFog_segment_5toMtuSay10Foundation4DataVGAH_SitF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl"
             ],
@@ -1708,6 +2574,7 @@
             "usr": "s:14MXFogProvision0A24BluetoothProtocolHandlerC16mxFog_reassembley10Foundation4DataVSgAGF",
             "mangledName": "$s14MXFogProvision0A24BluetoothProtocolHandlerC16mxFog_reassembley10Foundation4DataVSgAGF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl"
             ],
@@ -1744,6 +2611,7 @@
         "usr": "c:@M@MXFogProvision@objc(cs)MXFogBluetoothProtocolHandler",
         "mangledName": "$s14MXFogProvision0A24BluetoothProtocolHandlerC",
         "moduleName": "MXFogProvision",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "ObjC"
@@ -1843,8 +2711,8 @@
         "children": [
           {
             "kind": "Var",
-            "name": "shard",
-            "printedName": "shard",
+            "name": "shared",
+            "printedName": "shared",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1854,8 +2722,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(cpy)shard",
-            "mangledName": "$s14MXFogProvision010MXEasyLinkB0C5shardACvpZ",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(cpy)shared",
+            "mangledName": "$s14MXFogProvision010MXEasyLinkB0C6sharedACvpZ",
             "moduleName": "MXFogProvision",
             "static": true,
             "declAttributes": [
@@ -1880,8 +2748,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(cm)shard",
-                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C5shardACvgZ",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(cm)shared",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C6sharedACvgZ",
                 "moduleName": "MXFogProvision",
                 "static": true,
                 "implicit": true,
@@ -1909,8 +2777,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(cm)setShard:",
-                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C5shardACvsZ",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(cm)setShared:",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C6sharedACvsZ",
                 "moduleName": "MXFogProvision",
                 "static": true,
                 "implicit": true,
@@ -1932,14 +2800,886 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14MXFogProvision010MXEasyLinkB0C5shardACvMZ",
-                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C5shardACvMZ",
+                "usr": "s:14MXFogProvision010MXEasyLinkB0C6sharedACvMZ",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C6sharedACvMZ",
                 "moduleName": "MXFogProvision",
                 "static": true,
                 "implicit": true,
                 "declAttributes": [
                   "Final"
                 ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "productKey",
+            "printedName": "productKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(py)productKey",
+            "mangledName": "$s14MXFogProvision010MXEasyLinkB0C10productKeySSSgvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(im)productKey",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C10productKeySSSgvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(im)setProductKey:",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C10productKeySSSgvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision010MXEasyLinkB0C10productKeySSSgvM",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C10productKeySSSgvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceName",
+            "printedName": "deviceName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(py)deviceName",
+            "mangledName": "$s14MXFogProvision010MXEasyLinkB0C10deviceNameSSSgvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(im)deviceName",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C10deviceNameSSSgvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(im)setDeviceName:",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C10deviceNameSSSgvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision010MXEasyLinkB0C10deviceNameSSSgvM",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C10deviceNameSSSgvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceIP",
+            "printedName": "deviceIP",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(py)deviceIP",
+            "mangledName": "$s14MXFogProvision010MXEasyLinkB0C8deviceIPSSSgvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(im)deviceIP",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C8deviceIPSSSgvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(im)setDeviceIP:",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C8deviceIPSSSgvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision010MXEasyLinkB0C8deviceIPSSSgvM",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C8deviceIPSSSgvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bleKey",
+            "printedName": "bleKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(py)bleKey",
+            "mangledName": "$s14MXFogProvision010MXEasyLinkB0C6bleKeySSSgvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(im)bleKey",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C6bleKeySSSgvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(im)setBleKey:",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C6bleKeySSSgvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision010MXEasyLinkB0C6bleKeySSSgvM",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C6bleKeySSSgvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "randomStr",
+            "printedName": "randomStr",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(py)randomStr",
+            "mangledName": "$s14MXFogProvision010MXEasyLinkB0C9randomStrSSSgvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(im)randomStr",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C9randomStrSSSgvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(im)setRandomStr:",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C9randomStrSSSgvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision010MXEasyLinkB0C9randomStrSSSgvM",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C9randomStrSSSgvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customParams",
+            "printedName": "customParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(py)customParams",
+            "mangledName": "$s14MXFogProvision010MXEasyLinkB0C12customParamsSDySSypGSgvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(im)customParams",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C12customParamsSDySSypGSgvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(im)setCustomParams:",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C12customParamsSDySSypGSgvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision010MXEasyLinkB0C12customParamsSDySSypGSgvM",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C12customParamsSDySSypGSgvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "easylink",
+            "printedName": "easylink",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MXFogProvision.EasyLink?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EasyLink",
+                    "printedName": "MXFogProvision.EasyLink",
+                    "usr": "s:14MXFogProvision8EasyLinkC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MXFogProvision010MXEasyLinkB0C8easylinkAA04EasyD0CSgvp",
+            "mangledName": "$s14MXFogProvision010MXEasyLinkB0C8easylinkAA04EasyD0CSgvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MXFogProvision.EasyLink?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EasyLink",
+                        "printedName": "MXFogProvision.EasyLink",
+                        "usr": "s:14MXFogProvision8EasyLinkC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision010MXEasyLinkB0C8easylinkAA04EasyD0CSgvg",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C8easylinkAA04EasyD0CSgvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MXFogProvision.EasyLink?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EasyLink",
+                        "printedName": "MXFogProvision.EasyLink",
+                        "usr": "s:14MXFogProvision8EasyLinkC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision010MXEasyLinkB0C8easylinkAA04EasyD0CSgvs",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C8easylinkAA04EasyD0CSgvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision010MXEasyLinkB0C8easylinkAA04EasyD0CSgvM",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C8easylinkAA04EasyD0CSgvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -1959,6 +3699,7 @@
             "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(py)provisionDelegate",
             "mangledName": "$s14MXFogProvision010MXEasyLinkB0C17provisionDelegateAA0abF0_pSgvp",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -1994,6 +3735,7 @@
                 "mangledName": "$s14MXFogProvision010MXEasyLinkB0C17provisionDelegateAA0abF0_pSgvg",
                 "moduleName": "MXFogProvision",
                 "implicit": true,
+                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -2029,6 +3771,7 @@
                 "mangledName": "$s14MXFogProvision010MXEasyLinkB0C17provisionDelegateAA0abF0_pSgvs",
                 "moduleName": "MXFogProvision",
                 "implicit": true,
+                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -2050,6 +3793,233 @@
                 "mangledName": "$s14MXFogProvision010MXEasyLinkB0C17provisionDelegateAA0abF0_pSgvM",
                 "moduleName": "MXFogProvision",
                 "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeoutWorkItem",
+            "printedName": "timeoutWorkItem",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Dispatch.DispatchWorkItem?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchWorkItem",
+                    "printedName": "Dispatch.DispatchWorkItem",
+                    "usr": "s:8Dispatch0A8WorkItemC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MXFogProvision010MXEasyLinkB0C15timeoutWorkItem8Dispatch0hfG0CSgvp",
+            "mangledName": "$s14MXFogProvision010MXEasyLinkB0C15timeoutWorkItem8Dispatch0hfG0CSgvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Dispatch.DispatchWorkItem?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DispatchWorkItem",
+                        "printedName": "Dispatch.DispatchWorkItem",
+                        "usr": "s:8Dispatch0A8WorkItemC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision010MXEasyLinkB0C15timeoutWorkItem8Dispatch0hfG0CSgvg",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C15timeoutWorkItem8Dispatch0hfG0CSgvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Dispatch.DispatchWorkItem?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DispatchWorkItem",
+                        "printedName": "Dispatch.DispatchWorkItem",
+                        "usr": "s:8Dispatch0A8WorkItemC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision010MXEasyLinkB0C15timeoutWorkItem8Dispatch0hfG0CSgvs",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C15timeoutWorkItem8Dispatch0hfG0CSgvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision010MXEasyLinkB0C15timeoutWorkItem8Dispatch0hfG0CSgvM",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C15timeoutWorkItem8Dispatch0hfG0CSgvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "connectStatusWorkItem",
+            "printedName": "connectStatusWorkItem",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Dispatch.DispatchWorkItem?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchWorkItem",
+                    "printedName": "Dispatch.DispatchWorkItem",
+                    "usr": "s:8Dispatch0A8WorkItemC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MXFogProvision010MXEasyLinkB0C21connectStatusWorkItem8Dispatch0igH0CSgvp",
+            "mangledName": "$s14MXFogProvision010MXEasyLinkB0C21connectStatusWorkItem8Dispatch0igH0CSgvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Dispatch.DispatchWorkItem?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DispatchWorkItem",
+                        "printedName": "Dispatch.DispatchWorkItem",
+                        "usr": "s:8Dispatch0A8WorkItemC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision010MXEasyLinkB0C21connectStatusWorkItem8Dispatch0igH0CSgvg",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C21connectStatusWorkItem8Dispatch0igH0CSgvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Dispatch.DispatchWorkItem?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DispatchWorkItem",
+                        "printedName": "Dispatch.DispatchWorkItem",
+                        "usr": "s:8Dispatch0A8WorkItemC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision010MXEasyLinkB0C21connectStatusWorkItem8Dispatch0igH0CSgvs",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C21connectStatusWorkItem8Dispatch0igH0CSgvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision010MXEasyLinkB0C21connectStatusWorkItem8Dispatch0igH0CSgvM",
+                "mangledName": "$s14MXFogProvision010MXEasyLinkB0C21connectStatusWorkItem8Dispatch0igH0CSgvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -2155,6 +4125,7 @@
             "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(im)startProvisionWithPk:ssid:password:custom:timeout:delegate:",
             "mangledName": "$s14MXFogProvision010MXEasyLinkB0C05startB02pk4ssid8password6custom7timeout8delegateySSSg_SSAKSDySSypGSgSdAA0aB8Delegate_pSgtF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment",
@@ -2177,6 +4148,7 @@
             "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(im)stopProvision",
             "mangledName": "$s14MXFogProvision010MXEasyLinkB0C04stopB0yyF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment",
@@ -2199,6 +4171,7 @@
             "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(im)cleanProvisionCache",
             "mangledName": "$s14MXFogProvision010MXEasyLinkB0C05cleanB5CacheyyF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -2229,9 +4202,100 @@
             "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(im)createRandom",
             "mangledName": "$s14MXFogProvision010MXEasyLinkB0C12createRandomSSSgyF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRandom",
+            "printedName": "getRandom()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(im)getRandom",
+            "mangledName": "$s14MXFogProvision010MXEasyLinkB0C9getRandomyyF",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendRandom",
+            "printedName": "sendRandom()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(im)sendRandom",
+            "mangledName": "$s14MXFogProvision010MXEasyLinkB0C10sendRandomyyF",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDeviceNetworkConnectStatus",
+            "printedName": "getDeviceNetworkConnectStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(im)getDeviceNetworkConnectStatus",
+            "mangledName": "$s14MXFogProvision010MXEasyLinkB0C29getDeviceNetworkConnectStatusyyF",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createOpenResultMessage",
+            "printedName": "createOpenResultMessage(code:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(im)createOpenResultMessageWithCode:",
+            "mangledName": "$s14MXFogProvision010MXEasyLinkB0C23createOpenResultMessage4codeySi_tF",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
               "ObjC"
             ],
             "funcSelfKind": "NonMutating"
@@ -2276,6 +4340,7 @@
             "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(im)onFoundWithMetadata:host:",
             "mangledName": "$s14MXFogProvision010MXEasyLinkB0C7onFound8metadata4hostySDySSypG_SStF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -2309,6 +4374,7 @@
             "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision(im)onDisconnectFromFTCWithClient:error:",
             "mangledName": "$s14MXFogProvision010MXEasyLinkB0C19onDisconnectFromFTC6client5errorySi_SbtF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -2346,6 +4412,7 @@
         "usr": "c:@M@MXFogProvision@objc(cs)MXEasyLinkProvision",
         "mangledName": "$s14MXFogProvision010MXEasyLinkB0C",
         "moduleName": "MXFogProvision",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "ObjCMembers",
@@ -2919,6 +4986,102 @@
           },
           {
             "kind": "Var",
+            "name": "centralManager",
+            "printedName": "centralManager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CBCentralManager",
+                "printedName": "CoreBluetooth.CBCentralManager",
+                "usr": "c:objc(cs)CBCentralManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(py)centralManager",
+            "mangledName": "$s14MXFogProvision0a3BleB0C14centralManagerSo09CBCentralE0Cvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CBCentralManager",
+                    "printedName": "CoreBluetooth.CBCentralManager",
+                    "usr": "c:objc(cs)CBCentralManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)centralManager",
+                "mangledName": "$s14MXFogProvision0a3BleB0C14centralManagerSo09CBCentralE0Cvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CBCentralManager",
+                    "printedName": "CoreBluetooth.CBCentralManager",
+                    "usr": "c:objc(cs)CBCentralManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)setCentralManager:",
+                "mangledName": "$s14MXFogProvision0a3BleB0C14centralManagerSo09CBCentralE0Cvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision0a3BleB0C14centralManagerSo09CBCentralE0CvM",
+                "mangledName": "$s14MXFogProvision0a3BleB0C14centralManagerSo09CBCentralE0CvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "provisionDelegate",
             "printedName": "provisionDelegate",
             "children": [
@@ -2932,6 +5095,7 @@
             "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(py)provisionDelegate",
             "mangledName": "$s14MXFogProvision0a3BleB0C17provisionDelegateAA0abE0_pSgvp",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -2967,6 +5131,7 @@
                 "mangledName": "$s14MXFogProvision0a3BleB0C17provisionDelegateAA0abE0_pSgvg",
                 "moduleName": "MXFogProvision",
                 "implicit": true,
+                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -3002,6 +5167,7 @@
                 "mangledName": "$s14MXFogProvision0a3BleB0C17provisionDelegateAA0abE0_pSgvs",
                 "moduleName": "MXFogProvision",
                 "implicit": true,
+                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -3023,9 +5189,1719 @@
                 "mangledName": "$s14MXFogProvision0a3BleB0C17provisionDelegateAA0abE0_pSgvM",
                 "moduleName": "MXFogProvision",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "productKey",
+            "printedName": "productKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(py)productKey",
+            "mangledName": "$s14MXFogProvision0a3BleB0C10productKeySSvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)productKey",
+                "mangledName": "$s14MXFogProvision0a3BleB0C10productKeySSvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)setProductKey:",
+                "mangledName": "$s14MXFogProvision0a3BleB0C10productKeySSvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision0a3BleB0C10productKeySSvM",
+                "mangledName": "$s14MXFogProvision0a3BleB0C10productKeySSvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "connectPeripheral",
+            "printedName": "connectPeripheral",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreBluetooth.CBPeripheral?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CBPeripheral",
+                    "printedName": "CoreBluetooth.CBPeripheral",
+                    "usr": "c:objc(cs)CBPeripheral"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(py)connectPeripheral",
+            "mangledName": "$s14MXFogProvision0a3BleB0C17connectPeripheralSo12CBPeripheralCSgvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreBluetooth.CBPeripheral?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CBPeripheral",
+                        "printedName": "CoreBluetooth.CBPeripheral",
+                        "usr": "c:objc(cs)CBPeripheral"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)connectPeripheral",
+                "mangledName": "$s14MXFogProvision0a3BleB0C17connectPeripheralSo12CBPeripheralCSgvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreBluetooth.CBPeripheral?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CBPeripheral",
+                        "printedName": "CoreBluetooth.CBPeripheral",
+                        "usr": "c:objc(cs)CBPeripheral"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)setConnectPeripheral:",
+                "mangledName": "$s14MXFogProvision0a3BleB0C17connectPeripheralSo12CBPeripheralCSgvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision0a3BleB0C17connectPeripheralSo12CBPeripheralCSgvM",
+                "mangledName": "$s14MXFogProvision0a3BleB0C17connectPeripheralSo12CBPeripheralCSgvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dataInCharacteristic",
+            "printedName": "dataInCharacteristic",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreBluetooth.CBCharacteristic?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CBCharacteristic",
+                    "printedName": "CoreBluetooth.CBCharacteristic",
+                    "usr": "c:objc(cs)CBCharacteristic"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(py)dataInCharacteristic",
+            "mangledName": "$s14MXFogProvision0a3BleB0C20dataInCharacteristicSo16CBCharacteristicCSgvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreBluetooth.CBCharacteristic?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CBCharacteristic",
+                        "printedName": "CoreBluetooth.CBCharacteristic",
+                        "usr": "c:objc(cs)CBCharacteristic"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)dataInCharacteristic",
+                "mangledName": "$s14MXFogProvision0a3BleB0C20dataInCharacteristicSo16CBCharacteristicCSgvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreBluetooth.CBCharacteristic?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CBCharacteristic",
+                        "printedName": "CoreBluetooth.CBCharacteristic",
+                        "usr": "c:objc(cs)CBCharacteristic"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)setDataInCharacteristic:",
+                "mangledName": "$s14MXFogProvision0a3BleB0C20dataInCharacteristicSo16CBCharacteristicCSgvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision0a3BleB0C20dataInCharacteristicSo16CBCharacteristicCSgvM",
+                "mangledName": "$s14MXFogProvision0a3BleB0C20dataInCharacteristicSo16CBCharacteristicCSgvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notifyCharacteristic",
+            "printedName": "notifyCharacteristic",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreBluetooth.CBCharacteristic?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CBCharacteristic",
+                    "printedName": "CoreBluetooth.CBCharacteristic",
+                    "usr": "c:objc(cs)CBCharacteristic"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(py)notifyCharacteristic",
+            "mangledName": "$s14MXFogProvision0a3BleB0C20notifyCharacteristicSo16CBCharacteristicCSgvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreBluetooth.CBCharacteristic?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CBCharacteristic",
+                        "printedName": "CoreBluetooth.CBCharacteristic",
+                        "usr": "c:objc(cs)CBCharacteristic"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)notifyCharacteristic",
+                "mangledName": "$s14MXFogProvision0a3BleB0C20notifyCharacteristicSo16CBCharacteristicCSgvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreBluetooth.CBCharacteristic?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CBCharacteristic",
+                        "printedName": "CoreBluetooth.CBCharacteristic",
+                        "usr": "c:objc(cs)CBCharacteristic"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)setNotifyCharacteristic:",
+                "mangledName": "$s14MXFogProvision0a3BleB0C20notifyCharacteristicSo16CBCharacteristicCSgvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision0a3BleB0C20notifyCharacteristicSo16CBCharacteristicCSgvM",
+                "mangledName": "$s14MXFogProvision0a3BleB0C20notifyCharacteristicSo16CBCharacteristicCSgvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timer",
+            "printedName": "timer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.Timer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Timer",
+                    "printedName": "Foundation.Timer",
+                    "usr": "c:objc(cs)NSTimer"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(py)timer",
+            "mangledName": "$s14MXFogProvision0a3BleB0C5timerSo7NSTimerCSgvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Foundation.Timer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Timer",
+                        "printedName": "Foundation.Timer",
+                        "usr": "c:objc(cs)NSTimer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)timer",
+                "mangledName": "$s14MXFogProvision0a3BleB0C5timerSo7NSTimerCSgvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Foundation.Timer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Timer",
+                        "printedName": "Foundation.Timer",
+                        "usr": "c:objc(cs)NSTimer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)setTimer:",
+                "mangledName": "$s14MXFogProvision0a3BleB0C5timerSo7NSTimerCSgvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision0a3BleB0C5timerSo7NSTimerCSgvM",
+                "mangledName": "$s14MXFogProvision0a3BleB0C5timerSo7NSTimerCSgvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timerNumber",
+            "printedName": "timerNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(py)timerNumber",
+            "mangledName": "$s14MXFogProvision0a3BleB0C11timerNumberSivp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)timerNumber",
+                "mangledName": "$s14MXFogProvision0a3BleB0C11timerNumberSivg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)setTimerNumber:",
+                "mangledName": "$s14MXFogProvision0a3BleB0C11timerNumberSivs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision0a3BleB0C11timerNumberSivM",
+                "mangledName": "$s14MXFogProvision0a3BleB0C11timerNumberSivM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "keepAliveTimeout",
+            "printedName": "keepAliveTimeout",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(py)keepAliveTimeout",
+            "mangledName": "$s14MXFogProvision0a3BleB0C16keepAliveTimeoutSivp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)keepAliveTimeout",
+                "mangledName": "$s14MXFogProvision0a3BleB0C16keepAliveTimeoutSivg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)setKeepAliveTimeout:",
+                "mangledName": "$s14MXFogProvision0a3BleB0C16keepAliveTimeoutSivs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision0a3BleB0C16keepAliveTimeoutSivM",
+                "mangledName": "$s14MXFogProvision0a3BleB0C16keepAliveTimeoutSivM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "connectTimeout",
+            "printedName": "connectTimeout",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(py)connectTimeout",
+            "mangledName": "$s14MXFogProvision0a3BleB0C14connectTimeoutSivp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)connectTimeout",
+                "mangledName": "$s14MXFogProvision0a3BleB0C14connectTimeoutSivg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)setConnectTimeout:",
+                "mangledName": "$s14MXFogProvision0a3BleB0C14connectTimeoutSivs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision0a3BleB0C14connectTimeoutSivM",
+                "mangledName": "$s14MXFogProvision0a3BleB0C14connectTimeoutSivM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "checkConnectStatus",
+            "printedName": "checkConnectStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(py)checkConnectStatus",
+            "mangledName": "$s14MXFogProvision0a3BleB0C18checkConnectStatusSbvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)checkConnectStatus",
+                "mangledName": "$s14MXFogProvision0a3BleB0C18checkConnectStatusSbvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)setCheckConnectStatus:",
+                "mangledName": "$s14MXFogProvision0a3BleB0C18checkConnectStatusSbvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision0a3BleB0C18checkConnectStatusSbvM",
+                "mangledName": "$s14MXFogProvision0a3BleB0C18checkConnectStatusSbvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "checkDuration",
+            "printedName": "checkDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(py)checkDuration",
+            "mangledName": "$s14MXFogProvision0a3BleB0C13checkDurationSivp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)checkDuration",
+                "mangledName": "$s14MXFogProvision0a3BleB0C13checkDurationSivg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)setCheckDuration:",
+                "mangledName": "$s14MXFogProvision0a3BleB0C13checkDurationSivs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision0a3BleB0C13checkDurationSivM",
+                "mangledName": "$s14MXFogProvision0a3BleB0C13checkDurationSivM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bleKey",
+            "printedName": "bleKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(py)bleKey",
+            "mangledName": "$s14MXFogProvision0a3BleB0C6bleKeySSSgvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)bleKey",
+                "mangledName": "$s14MXFogProvision0a3BleB0C6bleKeySSSgvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)setBleKey:",
+                "mangledName": "$s14MXFogProvision0a3BleB0C6bleKeySSSgvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision0a3BleB0C6bleKeySSSgvM",
+                "mangledName": "$s14MXFogProvision0a3BleB0C6bleKeySSSgvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "randomStr",
+            "printedName": "randomStr",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(py)randomStr",
+            "mangledName": "$s14MXFogProvision0a3BleB0C9randomStrSSSgvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)randomStr",
+                "mangledName": "$s14MXFogProvision0a3BleB0C9randomStrSSSgvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)setRandomStr:",
+                "mangledName": "$s14MXFogProvision0a3BleB0C9randomStrSSSgvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision0a3BleB0C9randomStrSSSgvM",
+                "mangledName": "$s14MXFogProvision0a3BleB0C9randomStrSSSgvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceName",
+            "printedName": "deviceName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(py)deviceName",
+            "mangledName": "$s14MXFogProvision0a3BleB0C10deviceNameSSSgvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)deviceName",
+                "mangledName": "$s14MXFogProvision0a3BleB0C10deviceNameSSSgvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)setDeviceName:",
+                "mangledName": "$s14MXFogProvision0a3BleB0C10deviceNameSSSgvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision0a3BleB0C10deviceNameSSSgvM",
+                "mangledName": "$s14MXFogProvision0a3BleB0C10deviceNameSSSgvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "chiperStr",
+            "printedName": "chiperStr",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(py)chiperStr",
+            "mangledName": "$s14MXFogProvision0a3BleB0C9chiperStrSSSgvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)chiperStr",
+                "mangledName": "$s14MXFogProvision0a3BleB0C9chiperStrSSSgvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)setChiperStr:",
+                "mangledName": "$s14MXFogProvision0a3BleB0C9chiperStrSSSgvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision0a3BleB0C9chiperStrSSSgvM",
+                "mangledName": "$s14MXFogProvision0a3BleB0C9chiperStrSSSgvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isProvisioning",
+            "printedName": "isProvisioning",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(py)isProvisioning",
+            "mangledName": "$s14MXFogProvision0a3BleB0C14isProvisioningSbvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)isProvisioning",
+                "mangledName": "$s14MXFogProvision0a3BleB0C14isProvisioningSbvg",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)setIsProvisioning:",
+                "mangledName": "$s14MXFogProvision0a3BleB0C14isProvisioningSbvs",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MXFogProvision0a3BleB0C14isProvisioningSbvM",
+                "mangledName": "$s14MXFogProvision0a3BleB0C14isProvisioningSbvM",
+                "moduleName": "MXFogProvision",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceIdentifier",
+            "printedName": "deviceIdentifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(py)deviceIdentifier",
+            "mangledName": "$s14MXFogProvision0a3BleB0C16deviceIdentifierSSvp",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)deviceIdentifier",
+                "mangledName": "$s14MXFogProvision0a3BleB0C16deviceIdentifierSSvg",
+                "moduleName": "MXFogProvision",
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MXFogBleProvision",
+                "printedName": "MXFogProvision.MXFogBleProvision",
+                "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)init",
+            "mangledName": "$s14MXFogProvision0a3BleB0CACycfc",
+            "moduleName": "MXFogProvision",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
           },
           {
             "kind": "Function",
@@ -3048,6 +6924,7 @@
             "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)setTimeOutWithTimeNum:",
             "mangledName": "$s14MXFogProvision0a3BleB0C10setTimeOut7timeNumySi_tF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -3075,8 +6952,182 @@
             "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)setConnectTimeOutWithTimeNum:",
             "mangledName": "$s14MXFogProvision0a3BleB0C17setConnectTimeOut7timeNumySi_tF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)send::error:",
+            "mangledName": "$s14MXFogProvision0a3BleB0C4sendyySDySSypG_SbtKF",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "receiveMessageHandler",
+            "printedName": "receiveMessageHandler(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)receiveMessageHandlerWithMessage:",
+            "mangledName": "$s14MXFogProvision0a3BleB0C21receiveMessageHandler7messagey10Foundation4DataV_tF",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendNextPacket",
+            "printedName": "sendNextPacket()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)sendNextPacket",
+            "mangledName": "$s14MXFogProvision0a3BleB0C14sendNextPacketyyF",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "discoverServices",
+            "printedName": "discoverServices()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)discoverServices",
+            "mangledName": "$s14MXFogProvision0a3BleB0C16discoverServicesyyF",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "discoverCharacteristics",
+            "printedName": "discoverCharacteristics(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBService",
+                "printedName": "CoreBluetooth.CBService",
+                "usr": "c:objc(cs)CBService"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)discoverCharacteristicsFor:",
+            "mangledName": "$s14MXFogProvision0a3BleB0C23discoverCharacteristics3forySo9CBServiceC_tF",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deviceConnectSuccess",
+            "printedName": "deviceConnectSuccess(notif:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Notification",
+                "printedName": "Foundation.Notification",
+                "usr": "s:10Foundation12NotificationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision(im)deviceConnectSuccessWithNotif:",
+            "mangledName": "$s14MXFogProvision0a3BleB0C20deviceConnectSuccess5notify10Foundation12NotificationV_tF",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "objc_name": "deviceConnectSuccessWithNotif:",
+            "declAttributes": [
               "ObjC"
             ],
             "funcSelfKind": "NonMutating"
@@ -3144,6 +7195,7 @@
             "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)provisionDeviceWithPeripheral:productKey:deviceName:timeout:delegate:",
             "mangledName": "$s14MXFogProvision0a3BleB0C15provisionDevice10peripheral10productKey10deviceName7timeout8delegateySo12CBPeripheralCSg_S2SSiAA0aB8Delegate_pSgtF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "Dynamic",
               "AccessControl",
@@ -3168,9 +7220,33 @@
             "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)cleanProvisionCache",
             "mangledName": "$s14MXFogProvision0a3BleB0C05cleanB5CacheyyF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "Dynamic",
               "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "provisionClose",
+            "printedName": "provisionClose()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)provisionClose",
+            "mangledName": "$s14MXFogProvision0a3BleB0C14provisionCloseyyF",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
               "ObjC"
             ],
             "isFromExtension": true,
@@ -3191,6 +7267,7 @@
             "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)startTimer",
             "mangledName": "$s14MXFogProvision0a3BleB0C10startTimeryyF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "Dynamic",
               "AccessControl",
@@ -3214,9 +7291,149 @@
             "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)stopTimer",
             "mangledName": "$s14MXFogProvision0a3BleB0C9stopTimeryyF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "Dynamic",
               "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "timerAction",
+            "printedName": "timerAction()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)timerAction",
+            "mangledName": "$s14MXFogProvision0a3BleB0C11timerActionyyF",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createOpenResultMessage",
+            "printedName": "createOpenResultMessage(errorCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MXFogBleProvisionResultCode",
+                "printedName": "MXFogProvision.MXFogBleProvisionResultCode",
+                "usr": "s:14MXFogProvision0a3BleB10ResultCodeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MXFogProvision0a3BleB0C23createOpenResultMessage9errorCodeyAA0acbfI0O_tF",
+            "mangledName": "$s14MXFogProvision0a3BleB0C23createOpenResultMessage9errorCodeyAA0acbfI0O_tF",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendRandom",
+            "printedName": "sendRandom()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)sendRandom",
+            "mangledName": "$s14MXFogProvision0a3BleB0C10sendRandomyyF",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendWifiInfo",
+            "printedName": "sendWifiInfo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)sendWifiInfo",
+            "mangledName": "$s14MXFogProvision0a3BleB0C12sendWifiInfoyyF",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "psk",
+            "printedName": "psk(ssid:password:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)pskWithSsid:password:",
+            "mangledName": "$s14MXFogProvision0a3BleB0C3psk4ssid8password10Foundation4DataVSgSS_SStF",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "RawDocComment",
               "ObjC"
             ],
             "isFromExtension": true,
@@ -3246,6 +7463,7 @@
             "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)createRandom",
             "mangledName": "$s14MXFogProvision0a3BleB0C12createRandomSSSgyF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "Dynamic",
               "AccessControl",
@@ -3285,10 +7503,103 @@
             "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)createBleKeyWithSecret:",
             "mangledName": "$s14MXFogProvision0a3BleB0C06createC3Key6secretSSSgSS_tF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "Dynamic",
               "AccessControl",
               "RawDocComment",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRandom",
+            "printedName": "getRandom()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)getRandom",
+            "mangledName": "$s14MXFogProvision0a3BleB0C9getRandomyyF",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startRequestConnectStatus",
+            "printedName": "startRequestConnectStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)startRequestConnectStatus",
+            "mangledName": "$s14MXFogProvision0a3BleB0C25startRequestConnectStatusyyF",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBleConfigNetworking",
+            "printedName": "getBleConfigNetworking()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)getBleConfigNetworking",
+            "mangledName": "$s14MXFogProvision0a3BleB0C03getC16ConfigNetworkingyyF",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBleKey",
+            "printedName": "getBleKey()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)getBleKey",
+            "mangledName": "$s14MXFogProvision0a3BleB0C03getC3KeyyyF",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
               "ObjC"
             ],
             "isFromExtension": true,
@@ -3309,6 +7620,7 @@
             "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)startScan",
             "mangledName": "$s14MXFogProvision0a3BleB0C9startScanyyF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "Dynamic",
               "AccessControl",
@@ -3332,6 +7644,7 @@
             "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)stopScan",
             "mangledName": "$s14MXFogProvision0a3BleB0C8stopScanyyF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "Dynamic",
               "AccessControl",
@@ -3361,6 +7674,7 @@
             "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)centralManagerDidUpdateState:",
             "mangledName": "$s14MXFogProvision0a3BleB0C28centralManagerDidUpdateStateyySo09CBCentralE0CF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "objc_name": "centralManagerDidUpdateState:",
             "declAttributes": [
               "Dynamic",
@@ -3422,6 +7736,7 @@
             "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)centralManager:didDiscoverPeripheral:advertisementData:RSSI:",
             "mangledName": "$s14MXFogProvision0a3BleB0C14centralManager_11didDiscover17advertisementData4rssiySo09CBCentralE0C_So12CBPeripheralCSDySSypGSo8NSNumberCtF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "objc_name": "centralManager:didDiscoverPeripheral:advertisementData:RSSI:",
             "declAttributes": [
               "Dynamic",
@@ -3458,6 +7773,7 @@
             "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)centralManager:didConnectPeripheral:",
             "mangledName": "$s14MXFogProvision0a3BleB0C14centralManager_10didConnectySo09CBCentralE0C_So12CBPeripheralCtF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "objc_name": "centralManager:didConnectPeripheral:",
             "declAttributes": [
               "Dynamic",
@@ -3508,6 +7824,7 @@
             "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)centralManager:didFailToConnectPeripheral:error:",
             "mangledName": "$s14MXFogProvision0a3BleB0C14centralManager_16didFailToConnect5errorySo09CBCentralE0C_So12CBPeripheralCs5Error_pSgtF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "objc_name": "centralManager:didFailToConnectPeripheral:error:",
             "declAttributes": [
               "Dynamic",
@@ -3552,6 +7869,7 @@
             "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)peripheral:didDiscoverServices:",
             "mangledName": "$s14MXFogProvision0a3BleB0C10peripheral_19didDiscoverServicesySo12CBPeripheralC_s5Error_pSgtF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "objc_name": "peripheral:didDiscoverServices:",
             "declAttributes": [
               "Dynamic",
@@ -3603,6 +7921,7 @@
             "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)peripheral:didDiscoverCharacteristicsForService:error:",
             "mangledName": "$s14MXFogProvision0a3BleB0C10peripheral_29didDiscoverCharacteristicsFor5errorySo12CBPeripheralC_So9CBServiceCs5Error_pSgtF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "objc_name": "peripheral:didDiscoverCharacteristicsForService:error:",
             "declAttributes": [
               "Dynamic",
@@ -3647,6 +7966,7 @@
             "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)peripheral:didModifyServices:",
             "mangledName": "$s14MXFogProvision0a3BleB0C10peripheral_17didModifyServicesySo12CBPeripheralC_SaySo9CBServiceCGtF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "objc_name": "peripheral:didModifyServices:",
             "declAttributes": [
               "Dynamic",
@@ -3697,6 +8017,7 @@
             "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)peripheral:didUpdateNotificationStateForCharacteristic:error:",
             "mangledName": "$s14MXFogProvision0a3BleB0C10peripheral_29didUpdateNotificationStateFor5errorySo12CBPeripheralC_So16CBCharacteristicCs5Error_pSgtF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "objc_name": "peripheral:didUpdateNotificationStateForCharacteristic:error:",
             "declAttributes": [
               "Dynamic",
@@ -3747,6 +8068,7 @@
             "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)peripheral:didUpdateValueForCharacteristic:error:",
             "mangledName": "$s14MXFogProvision0a3BleB0C10peripheral_17didUpdateValueFor5errorySo12CBPeripheralC_So16CBCharacteristicCs5Error_pSgtF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "objc_name": "peripheral:didUpdateValueForCharacteristic:error:",
             "declAttributes": [
               "Dynamic",
@@ -3797,6 +8119,7 @@
             "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)peripheral:didWriteValueForCharacteristic:error:",
             "mangledName": "$s14MXFogProvision0a3BleB0C10peripheral_16didWriteValueFor5errorySo12CBPeripheralC_So16CBCharacteristicCs5Error_pSgtF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "objc_name": "peripheral:didWriteValueForCharacteristic:error:",
             "declAttributes": [
               "Dynamic",
@@ -3827,6 +8150,7 @@
             "usr": "c:@CM@MXFogProvision@objc(cs)MXFogBleProvision(im)peripheralIsReadyToSendWriteWithoutResponse:",
             "mangledName": "$s14MXFogProvision0a3BleB0C17peripheralIsReady26toSendWriteWithoutResponseySo12CBPeripheralC_tF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "objc_name": "peripheralIsReadyToSendWriteWithoutResponse:",
             "declAttributes": [
               "Dynamic",
@@ -3842,6 +8166,7 @@
         "usr": "c:@M@MXFogProvision@objc(cs)MXFogBleProvision",
         "mangledName": "$s14MXFogProvision0a3BleB0C",
         "moduleName": "MXFogProvision",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "ObjCMembers",
@@ -4422,6 +8747,25 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EasyLinkConfigKeys",
+                "printedName": "MXFogProvision.EasyLinkConfigKeys",
+                "usr": "s:14MXFogProvision18EasyLinkConfigKeysV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14MXFogProvision18EasyLinkConfigKeysVACycfc",
+            "mangledName": "$s14MXFogProvision18EasyLinkConfigKeysVACycfc",
+            "moduleName": "MXFogProvision",
+            "implicit": true,
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
@@ -4587,6 +8931,7 @@
             "usr": "s:14MXFogProvision8EasyLinkC8delegateAA0cD8Delegate_pSgvp",
             "mangledName": "$s14MXFogProvision8EasyLinkC8delegateAA0cD8Delegate_pSgvp",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -4622,6 +8967,7 @@
                 "mangledName": "$s14MXFogProvision8EasyLinkC8delegateAA0cD8Delegate_pSgvg",
                 "moduleName": "MXFogProvision",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -4654,6 +9000,7 @@
                 "mangledName": "$s14MXFogProvision8EasyLinkC8delegateAA0cD8Delegate_pSgvs",
                 "moduleName": "MXFogProvision",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "set"
               },
               {
@@ -4672,6 +9019,7 @@
                 "mangledName": "$s14MXFogProvision8EasyLinkC8delegateAA0cD8Delegate_pSgvM",
                 "moduleName": "MXFogProvision",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -4692,6 +9040,7 @@
             "usr": "s:14MXFogProvision8EasyLinkC11enableDebugSbvp",
             "mangledName": "$s14MXFogProvision8EasyLinkC11enableDebugSbvp",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -4717,6 +9066,7 @@
                 "mangledName": "$s14MXFogProvision8EasyLinkC11enableDebugSbvg",
                 "moduleName": "MXFogProvision",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -4741,6 +9091,7 @@
                 "mangledName": "$s14MXFogProvision8EasyLinkC11enableDebugSbvs",
                 "moduleName": "MXFogProvision",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "set"
               },
               {
@@ -4759,6 +9110,7 @@
                 "mangledName": "$s14MXFogProvision8EasyLinkC11enableDebugSbvM",
                 "moduleName": "MXFogProvision",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -4779,6 +9131,7 @@
             "usr": "s:14MXFogProvision8EasyLinkC15awsDelayPerByteSfvp",
             "mangledName": "$s14MXFogProvision8EasyLinkC15awsDelayPerByteSfvp",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -4804,6 +9157,7 @@
                 "mangledName": "$s14MXFogProvision8EasyLinkC15awsDelayPerByteSfvg",
                 "moduleName": "MXFogProvision",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -4828,6 +9182,7 @@
                 "mangledName": "$s14MXFogProvision8EasyLinkC15awsDelayPerByteSfvs",
                 "moduleName": "MXFogProvision",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "set"
               },
               {
@@ -4846,6 +9201,7 @@
                 "mangledName": "$s14MXFogProvision8EasyLinkC15awsDelayPerByteSfvM",
                 "moduleName": "MXFogProvision",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -4964,6 +9320,7 @@
             "usr": "s:14MXFogProvision8EasyLinkC07preparecD010wlanConfigySDySSypG_tF",
             "mangledName": "$s14MXFogProvision8EasyLinkC07preparecD010wlanConfigySDySSypG_tF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -4985,6 +9342,7 @@
             "usr": "s:14MXFogProvision8EasyLinkC16transmitSettingsyyF",
             "mangledName": "$s14MXFogProvision8EasyLinkC16transmitSettingsyyF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -5006,6 +9364,7 @@
             "usr": "s:14MXFogProvision8EasyLinkC16stopTransmittingyyF",
             "mangledName": "$s14MXFogProvision8EasyLinkC16stopTransmittingyyF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -5027,6 +9386,7 @@
             "usr": "s:14MXFogProvision8EasyLinkC6unInityyF",
             "mangledName": "$s14MXFogProvision8EasyLinkC6unInityyF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -5067,10 +9427,29 @@
             "usr": "s:14MXFogProvision8EasyLinkC11sendUDPData4data2to4porty10Foundation4DataV_SSs6UInt16VtF",
             "mangledName": "$s14MXFogProvision8EasyLinkC11sendUDPData4data2to4porty10Foundation4DataV_SSs6UInt16VtF",
             "moduleName": "MXFogProvision",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
             ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendDataToDevice",
+            "printedName": "sendDataToDevice()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MXFogProvision8EasyLinkC16sendDataToDeviceyyF",
+            "mangledName": "$s14MXFogProvision8EasyLinkC16sendDataToDeviceyyF",
+            "moduleName": "MXFogProvision",
+            "isOpen": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -5242,6 +9621,7 @@
         "usr": "s:14MXFogProvision8EasyLinkC",
         "mangledName": "$s14MXFogProvision8EasyLinkC",
         "moduleName": "MXFogProvision",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -5410,9 +9790,9 @@
     {
       "filePath": "\/Users\/mxchip\/Desktop\/mx_git\/mxapp_ios\/MXApp\/MXFrameworks\/MXFogProvision\/MXEasyLink\/MXEasyLinkProvision.swift",
       "kind": "IntegerLiteral",
-      "offset": 698,
-      "length": 3,
-      "value": "120"
+      "offset": 699,
+      "length": 2,
+      "value": "30"
     },
     {
       "filePath": "\/Users\/mxchip\/Desktop\/mx_git\/mxapp_ios\/MXApp\/MXFrameworks\/MXFogProvision\/MXEasyLink\/MXEasyLinkProvision.swift",
@@ -5425,8 +9805,8 @@
       "filePath": "\/Users\/mxchip\/Desktop\/mx_git\/mxapp_ios\/MXApp\/MXFrameworks\/MXFogProvision\/MXEasyLink\/MXEasyLinkProvision.swift",
       "kind": "IntegerLiteral",
       "offset": 1355,
-      "length": 3,
-      "value": "120"
+      "length": 2,
+      "value": "30"
     },
     {
       "filePath": "\/Users\/mxchip\/Desktop\/mx_git\/mxapp_ios\/MXApp\/MXFrameworks\/MXFogProvision\/MXBluetooth\/MXFogBleProvision.swift",

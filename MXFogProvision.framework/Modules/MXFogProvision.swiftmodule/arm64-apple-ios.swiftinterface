@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MXFogProvision
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MXFogProvision
 // swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
 import SystemConfiguration.CaptiveNetwork
 import CommonCrypto
@@ -58,9 +58,9 @@ public enum MXFogBleProvisionResultCode : Swift.Int {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class MXEasyLinkProvision : ObjectiveC.NSObject, MXFogProvision.EasyLinkDelegate {
-  @objc public static var shard: MXFogProvision.MXEasyLinkProvision
+  @objc public static var shared: MXFogProvision.MXEasyLinkProvision
   @objc weak public var provisionDelegate: (any MXFogProvision.MXFogProvisionDelegate)?
-  @objc public func startProvision(pk: Swift.String? = nil, ssid: Swift.String, password: Swift.String? = nil, custom: [Swift.String : Any]? = nil, timeout: Swift.Double = 120, delegate: (any MXFogProvision.MXFogProvisionDelegate)? = nil)
+  @objc public func startProvision(pk: Swift.String? = nil, ssid: Swift.String, password: Swift.String? = nil, custom: [Swift.String : Any]? = nil, timeout: Swift.Double = 30, delegate: (any MXFogProvision.MXFogProvisionDelegate)? = nil)
   @objc public func stopProvision()
   @objc public func cleanProvisionCache()
   @objc public func createRandom() -> Swift.String?
