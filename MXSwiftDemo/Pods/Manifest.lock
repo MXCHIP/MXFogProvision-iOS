@@ -1,0 +1,16 @@
+PODS:
+  - MXFogProvision (1.0.0)
+
+DEPENDENCIES:
+  - MXFogProvision (from `../`)
+
+EXTERNAL SOURCES:
+  MXFogProvision:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MXFogProvision: 7ac16574c22a426c929887a25cefa9665b85d59e
+
+PODFILE CHECKSUM: 897df2e778cbaec3fbe0b68ade74e457e1004074
+
+COCOAPODS: 1.16.2

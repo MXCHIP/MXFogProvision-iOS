@@ -1,0 +1,22 @@
+{
+  "name": "MXFogProvision",
+  "version": "1.0.0",
+  "summary": "A short description of MXFogProvision.",
+  "description": "mxchip fog provisioning sdk",
+  "homepage": "https://rd.mxchip.com/mx/mx_sdk_ios",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MXBleProvision": "zhanghf@mxchip.com"
+  },
+  "source": {
+    "git": "https://github.com/MXCHIP/MXBleProvision.git"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "static_framework": true,
+  "vendored_frameworks": "MXFogProvision.framework"
+}
