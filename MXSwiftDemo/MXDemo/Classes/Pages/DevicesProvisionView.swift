@@ -158,7 +158,7 @@ struct DevicesProvisionView: View {
         provisionSuccess(productKey: info.productKey, deviceName: info.deviceName)
     }
     
-    // MARK: - 开始Mesh配网
+    // MARK: - 开始Ble配网
     func startBleProvision(info: MXProvisionDeviceInfo) {
         
         let delegate = ProvisionDelegate { pk, dn, error in

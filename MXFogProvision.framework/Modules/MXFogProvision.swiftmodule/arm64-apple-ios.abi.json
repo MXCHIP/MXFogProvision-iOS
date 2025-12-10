@@ -1363,6 +1363,30 @@
         ]
       },
       {
+        "kind": "Function",
+        "name": "mxProvisionLog",
+        "printedName": "mxProvisionLog(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "GenericTypeParam",
+            "printedName": "τ_0_0"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:14MXFogProvision02mxB3LogyyxlF",
+        "mangledName": "$s14MXFogProvision02mxB3LogyyxlF",
+        "moduleName": "MXFogProvision",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "funcSelfKind": "NonMutating"
+      },
+      {
         "kind": "TypeDecl",
         "name": "MXFogProvisionDelegate",
         "printedName": "MXFogProvisionDelegate",
@@ -9881,7 +9905,7 @@
     {
       "filePath": "\/Users\/mxchip\/Desktop\/mx_git\/mxapp_ios\/MXApp\/MXFrameworks\/MXFogProvision\/MXBluetooth\/MXFogBleProvision.swift",
       "kind": "IntegerLiteral",
-      "offset": 6123,
+      "offset": 6153,
       "length": 2,
       "value": "30"
     },
