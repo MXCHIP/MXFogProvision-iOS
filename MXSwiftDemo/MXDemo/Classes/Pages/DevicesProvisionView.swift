@@ -29,6 +29,8 @@ struct DevicesProvisionView: View {
                     LazyVStack(spacing: 12) {
                         ForEach(provisionList.indices, id: \.self) { index in
                             ProvisionDeviceCellView(device: provisionList[index])
+                                // status 变化时重建 Cell，避免 loading 动画停不下来、图标不刷新
+                                .id("\(index)_\(provisionList[index].provisionStatus)")
                         }
                     }
                     .padding(.horizontal, 12)
@@ -105,6 +107,7 @@ struct DevicesProvisionView: View {
             for item in unProvisionList {
                 if provisioningList.count < MXAppConfig.provisionQueueMax {
                     item.provisionStatus = 1
+                    provisionList = provisionList.map { $0 }
                     startBleProvision(info: item)
                     startProvisionDevice()
                     return
@@ -123,12 +126,17 @@ struct DevicesProvisionView: View {
     
     // MARK: - 配网失败
     func provisionFail(productKey: String?, deviceName: String?) {
-        if let pk = productKey,
-           let dn = deviceName,
-           let index = provisionList.firstIndex(where: { $0.productKey == pk && $0.deviceName == dn }) {
-            provisionList[index].provisionStatus = 3
+        guard let pk = productKey, let dn = deviceName else { return }
+        guard let index = provisionList.firstIndex(where: { $0.productKey == pk && $0.deviceName == dn }) else {
+            startProvisionDevice()
+            return
         }
-        startProvisionDevice()
+        // 配网回调可能在子线程，必须在主线程更新 UI 状态
+        DispatchQueue.main.async {
+            provisionList[index].provisionStatus = 3
+            provisionList = provisionList.map { $0 }
+            startProvisionDevice()
+        }
     }
     
     // MARK: - 配网成功
@@ -139,9 +147,12 @@ struct DevicesProvisionView: View {
             startProvisionDevice()
             return
         }
-        
-        provisionList[index].provisionStatus = 2
-        startProvisionDevice()
+        // 配网回调可能在子线程，必须在主线程更新 UI 状态
+        DispatchQueue.main.async {
+            provisionList[index].provisionStatus = 2
+            provisionList = provisionList.map { $0 }
+            startProvisionDevice()
+        }
     }
     
     // MARK: - 绑定设备
@@ -181,12 +192,15 @@ struct DevicesProvisionView: View {
     
     // MARK: - 刷新配网
     func refreshProvision() {
-        provisionList.forEach { device in
-            if device.provisionStatus == 3 {
-                device.provisionStatus = 0
+        DispatchQueue.main.async {
+            provisionList.forEach { device in
+                if device.provisionStatus == 3 {
+                    device.provisionStatus = 0
+                }
             }
+            provisionList = provisionList.map { $0 }
+            startProvisionDevice()
         }
-        startProvisionDevice()
     }
     
     // MARK: - 下一步操作
