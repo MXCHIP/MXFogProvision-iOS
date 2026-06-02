@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MXFogProvision'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of MXFogProvision.'
 
   s.description      = "mxchip fog provisioning sdk"
@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
 
   s.static_framework = true
-  s.vendored_frameworks = 'MXFogProvision.framework'
+  s.vendored_frameworks = 'MXFogProvision.xcframework'
   
 end
